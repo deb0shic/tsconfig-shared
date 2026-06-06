@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Next.js 14/15 App Router",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "target":            "ES2022",
+    "lib":               ["dom", "dom.iterable", "esnext"],
+    "module":            "esnext",
+    "moduleResolution":  "bundler",
+    "allowJs":           true,
+    "noEmit":            true,
+    "incremental":       true,
+
+    "jsx":               "preserve",
+
+    "plugins": [{ "name": "next" }],
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}

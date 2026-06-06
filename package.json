@@ -1,0 +1,23 @@
+{
+  "name": "@deb0shic/tsconfig",
+  "version": "0.4.0",
+  "description": "Shared TypeScript compiler options — base, node, library, next, strict-plus.",
+  "license": "MIT",
+  "author": "deb0shic",
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/deb0shic/tsconfig-shared.git"
+  },
+  "files": [
+    "base.json",
+    "node.json",
+    "library.json",
+    "next.json",
+    "strict-plus.json",
+    "README.md"
+  ],
+  "keywords": ["tsconfig", "typescript", "config"],
+  "publishConfig": {
+    "access": "public"
+  }
+}

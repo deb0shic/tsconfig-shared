@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 20+",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "target":            "ES2022",
+    "lib":               ["ES2023"],
+    "module":            "NodeNext",
+    "moduleResolution":  "NodeNext",
+    "types":             ["node"],
+    "outDir":            "dist",
+    "sourceMap":         true,
+    "declaration":       false
+  }
+}
