@@ -19,3 +19,4 @@
 ## 0.1.0
 
 - Initial split from a single monolithic `tsconfig.json` used across my projects.
+
